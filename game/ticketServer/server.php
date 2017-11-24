@@ -35,7 +35,7 @@ header('Pragma: no-cache');
 
 
 // enable verbose error reporting to detect uninitialized variables
-error_reporting( E_ALL );
+error_reporting( E_ALL & ~E_DEPRECATED);
 
 
 
