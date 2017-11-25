@@ -4,12 +4,12 @@
 // You must set these for the server to work
 
 $databaseServer = "localhost";
-$databaseUsername = "testUser";
-$databasePassword = "testPassword";
-$databaseName = "test";
+$databaseUsername = "root";
+$databasePassword = "mysqlpass";
+$databaseName = "ticketsdb";
 
 // The URL of to the server.php script.
-$fullServerURL = "http://localhost/jcr13/ticketServer/server.php";
+$fullServerURL = "http://localhost:8080/ticketServer/server.php";
 
 
 // The URL of the main, public-face website
@@ -57,7 +57,7 @@ $enableLog = 1;
 
 
 // should web-based admin require yubikey two-factor authentication?
-$enableYubikey = 1;
+$enableYubikey = 0;
 
 // 12-character Yubikey IDs, one list for each access password
 // each list is a set of ids separated by :
